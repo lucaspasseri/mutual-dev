@@ -1,3 +1,7 @@
 export default function NextSection() {
-	return <section className="h-screen w-screen bg-portfolio-third"></section>;
+	return (
+		<section className="bg-portfolio-third">
+			<div>Next section</div>
+		</section>
+	);
 }
